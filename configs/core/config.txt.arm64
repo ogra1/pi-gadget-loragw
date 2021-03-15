@@ -29,3 +29,10 @@ dtparam=spi=on
 # Uncomment the following lines if you wish to restore these customizations
 #dtparam=act_led_trigger=heartbeat
 #dtparam=pwr_led_trigger=mmc0
+
+# RAKWireless 2245 Pi HAT addition
+dtparam=i2c1=on, dtparam=i2c_arm_baudrate=10000
+
+# make serial console free for GPS
+dtoverlay=miniuart-bt
+core_freq=250

@@ -1,6 +1,6 @@
 device-tree: bcm2709-rpi-3-b-plus
 volumes:
-  pi:
+  pi-loragw:
     schema: mbr
     bootloader: u-boot
     structure:
